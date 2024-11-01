@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-03 15:24+0530\n"
+"PO-Revision-Date: 2018-07-03 15:26+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/settings/wt_sl_facebook_settings.php:12
+msgid ""
+"You need to create a <a target=\"blank\" href=\"https://developers.facebook."
+"com/apps/\">Facebook application</a> prior to start using the Facebook for "
+"social login"
+msgstr ""
+"Sie müssen eine <a target=\"blank\" href=\"https://developers.facebook.com/"
+"apps/\">Facebook-Anwendung</a> erstellen, bevor Sie das Facebook für den "
+"sozialen Login verwenden"
+
+#: admin/settings/WT_SL_General_Settings.php:12
+msgid ""
+"The below fields will takeup the default values as indicated if not amended "
+"to your specification."
+msgstr ""
+"Die unter Feldern Aufwicklung wird die Default-Werte wie angegeben nach "
+"Ihren Angaben nicht geändert."
+
+#: admin/settings/wt-sl-google-settings.php:10
+msgid ""
+"You need to create a <a target=\"blank\" href=\"https://console.developers."
+"google.com/apis/\">Google application</a> prior to start using the Google "
+"for social login"
+msgstr ""
+"Vous devez créer une <a target=\"blank\" href=\"https://console.developers."
+"google.com/apis/\"> application Google </a> avant de commencer à utiliser "
+"Google pour la connexion sociale."
+
+#: admin/settings/WT_SL_Linkedin_Settings.php:10
+msgid ""
+"You need to create a <a target=\"blank\" href=\"https://www.linkedin.com/"
+"secure/developer/\">LinkedIn application</a> prior to start using the "
+"LinkedIn for social login"
+msgstr ""
+"Sie müssen einen <a target=\"blank\" href=\"https://www.linkedin.com/secure/"
+"developer/\">LinkedIn Anwendung</a> vor Einstieg in die LinkedIn für soziale "
+"Login erstellen"
+
+#: admin/class-wt-social-login-admin.php:115
+msgid "Login with Social Media"
+msgstr "Login via Social Media"
+
+#: admin/class-wt-social-login-admin.php:217
+msgid "Test Settings"
+msgstr "Einstellungen überprüfen"
+
+#: admin/class-wt-social-login-admin.php:218
+msgid "Test Notice"
+msgstr "Mitteilungen"
+
+#: admin/partials/login-error.php:9
+msgid "Login Error"
+msgstr "Fehler beim Anmelden"
+
+#: admin/partials/login-error.php:10
+msgid "Please fill the credentials to login"
+msgstr ""
+"S'il vous plaît remplir les informations d'identification pour vous connecter"
+
+#: admin/partials/wt-social-login-admin-display.php:6
+msgid "WordPress Social Login Settings"
+msgstr "WordPress Social Login - Einstellungen"
+
+#: admin/partials/wt-social-login-admin-display.php:10
+#: admin/register_general_settings.php:13
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/partials/wt-social-login-admin-display.php:12
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/partials/wt-social-login-admin-display.php:14
+msgid "Google"
+msgstr "Google"
+
+#: admin/partials/wt-social-login-admin-display.php:16
+msgid "LinkedIn"
+msgstr "Link"
+
+#: admin/register_facebook_settings.php:13
+msgid "Facebook Settings"
+msgstr "Facebook-Einstellungen"
+
+#: admin/register_facebook_settings.php:25
+msgid "Enable Facebook"
+msgstr "Facebook aktivieren"
+
+#: admin/register_facebook_settings.php:43
+msgid "Facebook App ID/API Key"
+msgstr "Facebook App-ID/API-Schlüssel"
+
+#: admin/register_facebook_settings.php:57
+msgid "Facebook App Secret"
+msgstr "Facebook App Secret"
+
+#: admin/register_facebook_settings.php:71
+msgid "Facebook Valid OAuth Redirect URL"
+msgstr "Facebook-gültige OAuth-Umleitungs-URL"
+
+#: admin/register_general_settings.php:23
+msgid "Enable Social Login"
+msgstr "Social Media Login aktivieren"
+
+#: admin/register_general_settings.php:43
+msgid "WooCommerce Login Page"
+msgstr "WooCommerce-Login-Seite"
+
+#: admin/register_general_settings.php:57
+msgid "WooCommerce Registration Page"
+msgstr "WooCommerce-Registrierungsseite"
+
+#: admin/register_general_settings.php:71
+msgid "WooCommerce Checkout Page"
+msgstr "WooCommerce Kasse"
+
+#: admin/register_general_settings.php:85
+msgid "Social login section title on Account details page"
+msgstr "Social Login Abschnittstitel auf Konto-Detailseite"
+
+#: admin/register_general_settings.php:99
+msgid "Display \"Link Your Account\" button on WooCommerce ThankYou Page "
+msgstr "\"Link Your Account\" Button auf WooCommerce-Dankeschön-Seite anzeigen"
+
+#: admin/register_google_settings.php:13
+msgid "Google Settings"
+msgstr "Google-Einstellungen"
+
+#: admin/register_google_settings.php:25
+msgid "Enable Google"
+msgstr "Google aktivieren"
+
+#: admin/register_google_settings.php:43
+msgid "Google App ID/API Key"
+msgstr "Google App Api Schlüssel"
+
+#: admin/register_google_settings.php:57
+msgid "Google App Secret"
+msgstr "Google App Secret-Key"
+
+#: admin/register_google_settings.php:71
+msgid "Google callback URL"
+msgstr "Google-Callback-URL"
+
+#: admin/register-linkedin-settings.php:13
+msgid "Linkedin Settings"
+msgstr "LinkedIn-Einstellungen"
+
+#: admin/register-linkedin-settings.php:25
+msgid "Enable Linkedin"
+msgstr "LinkedIn aktivieren"
+
+#: admin/register-linkedin-settings.php:43
+msgid "Linkedin App ID/API Key"
+msgstr "LinkedIn App ID/API-Schlüssel"
+
+#: admin/register-linkedin-settings.php:57
+msgid "Linkedin App Secret"
+msgstr "Linkedin App Secret"
+
+#: admin/register-linkedin-settings.php:71
+msgid "Linkedin callback URL"
+msgstr "URL de rappel Linkedin"
+
+#: admin/woocommerce_myaccount.php:11
+msgid "Your account is connected to the following social login providers."
+msgstr "Dein Account ist mit den folgenden sozialen Netzwerken verknüpft."
+
+#: admin/woocommerce_myaccount.php:14
+msgid "Provider"
+msgstr "Anbieter"
+
+#: admin/woocommerce_myaccount.php:15
+msgid "Account"
+msgstr "Mein Konto Tab Titel"
+
+#: admin/woocommerce_myaccount.php:16
+msgid "Last Login"
+msgstr "Letzte Anmeldung"
+
+#: admin/woocommerce_myaccount.php:17
+msgid "Actions"
+msgstr "Aktionen"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:19
+msgid "I couldn't understand how to make it work"
+msgstr "Ich habe nicht verstanden, wie es funktioniert"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:21
+msgid "Would you like us to assist you?"
+msgstr "Möchtest Du Hilfe?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:25
+msgid "I found a better plugin"
+msgstr "Ich fand ein besseres Plugin"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:27
+msgid "Which plugin?"
+msgstr "Welches Plugin?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:31
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Das Plugin ist großartig, aber ich brauche besondere Funktionen, die das "
+"PlugIn nicht bietet"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:33
+msgid "Could you tell us more about that feature?"
+msgstr "Können Sie uns mehr über dieses Feature erzählen?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:37
+msgid "The plugin is not working"
+msgstr "Das PlugIn funktioniert nicht"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:39
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Können Sie uns mehr dazu sagen, was nicht funktioniert?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:43
+msgid "It's not what I was looking for"
+msgstr "Es ist nicht das, was ich suchte"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:49
+msgid "The plugin didn't work as expected"
+msgstr "Das PlugIn funktioniert nicht wie erwartet"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:51
+msgid "What did you expect?"
+msgstr "Was haben Sie erwartet?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:55
+msgid "Other"
+msgstr "Sonstiges"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:57
+msgid "Could you tell us a bit more?"
+msgstr "Könnten Sie uns noch etwas mehr erzählen?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:75
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+"Wenn Du einen Moment Zeit hast, lass uns wissen, warum Du das Plugin "
+"deaktivieren möchtest:"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:87
+msgid "I rather wouldn't say"
+msgstr "Ich würde das lieber nicht sagen"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:88
+msgid "Submit & Deactivate"
+msgstr "Absenden & Deaktivieren"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:89
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: wt-social-login.php:97
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: wt-social-login.php:98
+msgid "Support"
+msgstr "Unterstützen"
+
+#: wt-social-login.php:99
+msgid "Review"
+msgstr "Bewertung"

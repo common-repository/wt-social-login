@@ -1,0 +1,212 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.bg-white{
+	background: white;
+	padding: 20px;
+	margin: 0;
+}
+
+#sl-plugin {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#sl-plugin td, #sl-plugin th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#sl-plugin tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#sl-plugin tr:hover {
+	background-color: #ddd;
+}
+
+#sl-plugin th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #0073aa;
+	color: white;
+}
+#toplevel_page_wt-social-login .wp-menu-image:before{
+	color: green;
+}
+
+ul.wt-ul-square {
+	list-style-type: square;
+}
+
+.wt-ul-square li {
+	margin-left: 10px;
+}
+
+.sl-settings-left {
+	width:50%; 
+	float:left;
+}
+
+.sl-settings-right {
+	width:50%; 
+	float:right;
+}
+
+.wt-sl-settings {
+	display:flex; 
+	width:96%;
+}
+
+.sl-app-instruction {
+	background-color:#e5f5fa; 
+	padding:10px 15px 10px 15px;
+}
+
+/* Webtoffee Social Login Tooltip */
+
+/* Add this attribute to the element that needs a tooltip */
+
+[data-wt-sl-tooltip] {
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+
+[data-wt-sl-tooltip]:before, [data-wt-sl-tooltip]:after {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+
+[data-wt-sl-tooltip]:before {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-bottom: 10px;
+    transform: translateX(-50%);
+    min-width: 250px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    content: attr(data-wt-sl-tooltip);
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    padding: 12px;
+    letter-spacing: -.25px;
+    text-transform: none;
+    white-space: normal;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+
+[data-wt-sl-tooltip]:after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-bottom: 5px;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+
+[data-wt-sl-tooltip]:hover:before, [data-wt-sl-tooltip]:hover:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+span.wt-sl-tootip-icon {
+    background-image: url(../images/wt-sl-info.svg);
+    width: 14px;
+    height: 14px;
+    display: inline-flex;
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+	margin: 5px 10px -4px 0px;
+}
+
+.wt-sl-label {
+	margin-left: 5px;
+	color: #444;
+}
+
+.wt-sl-general .sl-settings-left {
+	width: 80%;
+}
+
+.wt-sl-general table th {
+  width: 400px;
+}
+
+.wt-sl-settings .form-table input {
+  margin-left: 25px;
+}
+.wt-sl-settings .form-table .wt-sl-tooltip + input {
+  margin-left: 1px;
+}
+
+/* Callout styles  */
+
+.wt-sl-callout {
+    padding: 1.5em 3em 1.6em 3.7em;
+    margin-bottom: 1.5em;
+	margin-right: 20px;
+    overflow: auto;
+    position: relative;
+    border-width: 0 0 0 5px;
+    border-style: solid;
+    min-width: 170px;
+  }
+  .wt-sl-callout p {
+    margin-bottom: 0.6em;
+    margin-top: 0.5em;
+  }
+  .wt-sl-callout p:first-child {
+    margin-top: 0;
+  }
+  .wt-sl-callout p:last-child {
+    margin-bottom: 0;
+  }
+  .wt-sl-callout:before {
+    content: "";
+    font-family: "dashicons";
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 0.5em;
+    transform: translateY(-50%);
+}
+  .wt-sl-callout .screen-reader-text + br {
+    display: none;
+  }
+  
+  .wt-sl-callout-info     { background: #e5f5fa; border-color: #00a0d2; }
+  .wt-sl-callout-success  { background: #eff7ed; border-color: #64b450; }
+  .wt-sl-callout-alert    { background: #fff8e5; border-color: #ffb900; }
+  .wt-sl-callout-tutorial { background: #f2f0f7; border-color: #826eb4; }
+  .wt-sl-callout-warning  { background: #fbeaea; border-color: #dc3232; }
+  
+  .wt-sl-callout-info:before     { content: "\f348"; color: #00a0d2; }
+  .wt-sl-callout-alert:before    { content: "\f227"; color: #ffb900; }
+  .wt-sl-callout-tutorial:before { content: "\f308"; color: #826eb4; }
+  .wt-sl-callout-warning:before  { content: "\f153"; color: #dc3232; }

@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-03 15:21+0530\n"
+"PO-Revision-Date: 2018-07-03 15:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/settings/wt_sl_facebook_settings.php:12
+msgid ""
+"You need to create a <a target=\"blank\" href=\"https://developers.facebook."
+"com/apps/\">Facebook application</a> prior to start using the Facebook for "
+"social login"
+msgstr ""
+"Vous devez créer un avant <a target=\"blank\" href=\"https://developers."
+"facebook.com/apps/\">l’application Facebook</a> pour commencer à utiliser le "
+"Facebook pour sociale connexion"
+
+#: admin/settings/WT_SL_General_Settings.php:12
+msgid ""
+"The below fields will takeup the default values as indicated if not amended "
+"to your specification."
+msgstr ""
+"Les dessous de champs seront takeup les valeurs par défaut comme indiqué si "
+"non modifié votre cahier des charges."
+
+#: admin/settings/wt-sl-google-settings.php:10
+msgid ""
+"You need to create a <a target=\"blank\" href=\"https://console.developers."
+"google.com/apis/\">Google application</a> prior to start using the Google "
+"for social login"
+msgstr ""
+"Vous devez créer une <a target=\"blank\" href=\"https://console.developers."
+"google.com/apis/\"> application Google </a> avant de commencer à utiliser "
+"Google pour la connexion sociale."
+
+#: admin/settings/WT_SL_Linkedin_Settings.php:10
+msgid ""
+"You need to create a <a target=\"blank\" href=\"https://www.linkedin.com/"
+"secure/developer/\">LinkedIn application</a> prior to start using the "
+"LinkedIn for social login"
+msgstr ""
+"Vous devez créer un avant <a target=\"blank\" href=\"https://www.linkedin."
+"com/secure/developer/\">l’application LinkedIn</a> pour commencer à utiliser "
+"le LinkedIn pour sociale connexion"
+
+#: admin/class-wt-social-login-admin.php:115
+msgid "Login with Social Media"
+msgstr "Connectez-vous avec les médias sociaux"
+
+#: admin/class-wt-social-login-admin.php:217
+msgid "Test Settings"
+msgstr "Tester les paramètres"
+
+#: admin/class-wt-social-login-admin.php:218
+msgid "Test Notice"
+msgstr "Communiqué"
+
+#: admin/partials/login-error.php:9
+msgid "Login Error"
+msgstr "Erreur de connexion"
+
+#: admin/partials/login-error.php:10
+msgid "Please fill the credentials to login"
+msgstr "Veuillez remplir les informations d'identification pour vous connecter"
+
+#: admin/partials/wt-social-login-admin-display.php:6
+msgid "WordPress Social Login Settings"
+msgstr "Wordpress Social Login - Paramètres"
+
+#: admin/partials/wt-social-login-admin-display.php:10
+#: admin/register_general_settings.php:13
+msgid "General"
+msgstr "Général"
+
+#: admin/partials/wt-social-login-admin-display.php:12
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/partials/wt-social-login-admin-display.php:14
+msgid "Google"
+msgstr "Google"
+
+#: admin/partials/wt-social-login-admin-display.php:16
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: admin/register_facebook_settings.php:13
+msgid "Facebook Settings"
+msgstr "Réglages Facebook"
+
+#: admin/register_facebook_settings.php:25
+msgid "Enable Facebook"
+msgstr "Activer Facebook"
+
+#: admin/register_facebook_settings.php:43
+msgid "Facebook App ID/API Key"
+msgstr "App ID/Clé API Facebook"
+
+#: admin/register_facebook_settings.php:57
+msgid "Facebook App Secret"
+msgstr "Facebook App secret"
+
+#: admin/register_facebook_settings.php:71
+msgid "Facebook Valid OAuth Redirect URL"
+msgstr "Facebook URL de redirection OAuth valide"
+
+#: admin/register_general_settings.php:23
+msgid "Enable Social Login"
+msgstr "Activer l'enregistrement avec les réseaux sociaux"
+
+#: admin/register_general_settings.php:43
+msgid "WooCommerce Login Page"
+msgstr "WooCommerce Formulaire de connexion"
+
+#: admin/register_general_settings.php:57
+msgid "WooCommerce Registration Page"
+msgstr "WooCommerce Page d'inscription"
+
+#: admin/register_general_settings.php:71
+msgid "WooCommerce Checkout Page"
+msgstr "Page de Paiement WooCommerce"
+
+#: admin/register_general_settings.php:85
+msgid "Social login section title on Account details page"
+msgstr "Titre de la section sociale login sur la page de détails de compte"
+
+#: admin/register_general_settings.php:99
+msgid "Display \"Link Your Account\" button on WooCommerce ThankYou Page "
+msgstr "Afficher le bouton de lien « votre compte » àlapage WooCommerce Merci"
+
+#: admin/register_google_settings.php:13
+msgid "Google Settings"
+msgstr "Réglages Google"
+
+#: admin/register_google_settings.php:25
+msgid "Enable Google"
+msgstr "Activer Google"
+
+#: admin/register_google_settings.php:43
+msgid "Google App ID/API Key"
+msgstr "Clé API Google App"
+
+#: admin/register_google_settings.php:57
+msgid "Google App Secret"
+msgstr "Google App Secret"
+
+#: admin/register_google_settings.php:71
+msgid "Google callback URL"
+msgstr "URL de rappel Google+:"
+
+#: admin/register-linkedin-settings.php:13
+msgid "Linkedin Settings"
+msgstr "Réglages LinkedIn"
+
+#: admin/register-linkedin-settings.php:25
+msgid "Enable Linkedin"
+msgstr "Activer LinkedIn"
+
+#: admin/register-linkedin-settings.php:43
+msgid "Linkedin App ID/API Key"
+msgstr "ID de l'application LinkedIn / clé API:"
+
+#: admin/register-linkedin-settings.php:57
+msgid "Linkedin App Secret"
+msgstr "LinkedIn App secret"
+
+#: admin/register-linkedin-settings.php:71
+msgid "Linkedin callback URL"
+msgstr "URL de rappel Linkedin"
+
+#: admin/woocommerce_myaccount.php:11
+msgid "Your account is connected to the following social login providers."
+msgstr "Votre compte HTQUALITY est connecté avec cette liste de compte social."
+
+#: admin/woocommerce_myaccount.php:14
+msgid "Provider"
+msgstr "Etablissement"
+
+#: admin/woocommerce_myaccount.php:15
+msgid "Account"
+msgstr "Mon compte onglet titre"
+
+#: admin/woocommerce_myaccount.php:16
+msgid "Last Login"
+msgstr "Dernière connexion"
+
+#: admin/woocommerce_myaccount.php:17
+msgid "Actions"
+msgstr "Rechercher des actions planifiées"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:19
+msgid "I couldn't understand how to make it work"
+msgstr "Je n’arrive pas à comprendre comment le faire fonctionner"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:21
+msgid "Would you like us to assist you?"
+msgstr "Souhaitez-vous que nous vous aidions?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:25
+msgid "I found a better plugin"
+msgstr "Trouvé un meilleur plugin"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:27
+msgid "Which plugin?"
+msgstr "Quel plugin"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:31
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Le plugin est bien, mais j'ai besoin d'une fonctionnalité non supportée"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:33
+msgid "Could you tell us more about that feature?"
+msgstr "Pourriez-vous nous en dire plus sur cette fonctionnalité?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:37
+msgid "The plugin is not working"
+msgstr "L’extension ne fonctionne pas"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:39
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Pourriez-vous nous dire un peu plus ce qui ne fonctionne pas?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:43
+msgid "It's not what I was looking for"
+msgstr "Ce n'est pas ce que je cherchais"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:49
+msgid "The plugin didn't work as expected"
+msgstr "Le plugin n'a pas fonctionné comme prévu"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:51
+msgid "What did you expect?"
+msgstr "A quoi vous attendiez-vous ?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:55
+msgid "Other"
+msgstr "Autre"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:57
+msgid "Could you tell us a bit more?"
+msgstr "Pourriez-vous nous en dire un peu plus?"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:75
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+"Si vous avez un moment, faites-nous savoir pourquoi vous avez désactivé "
+"l’extension:"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:87
+msgid "I rather wouldn't say"
+msgstr "Je préfère ne pas le dire"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:88
+msgid "Submit & Deactivate"
+msgstr "Soumettre et désactiver"
+
+#: includes/class-wt-sociallogin-uninstall-feedback.php:89
+msgid "Cancel"
+msgstr "Annuler"
+
+#: wt-social-login.php:97
+msgid "Settings"
+msgstr "Paramètres"
+
+#: wt-social-login.php:98
+msgid "Support"
+msgstr "Soutien"
+
+#: wt-social-login.php:99
+msgid "Review"
+msgstr "La revue"
+
+#~ msgid ""
+#~ "You need to create a Facebook application prior to start using the "
+#~ "Facebook for social login"
+#~ msgstr "Vous devez créer une application Facebook pour la connexion sociale"
+
+#~ msgid ""
+#~ "You need to create a Google application prior to start using the Google "
+#~ "for social login"
+#~ msgstr "Vous devez créer un compte Google pour les connexions sociales"
+
+#~ msgid ""
+#~ "You need to create a LinkedIn application prior to start using the "
+#~ "LinkedIn for social login"
+#~ msgstr ""
+#~ "Vous devez créer une application LinkedIn avant de commencer à utiliser "
+#~ "le LinkedIn pour sociale connexion"
+
+#~ msgid "Please fill the Credentials to login"
+#~ msgstr ""
+#~ "Veuillez remplir les informations d'identification pour vous connecter"
+
+#~ msgid "Social Login Title"
+#~ msgstr "Đăng nhập xã hội"
+
+#~ msgid "Display \"Link Your Account\" button on ThankYou Page "
+#~ msgstr "Afficher le lien \"Lier votre compte\" sur la page de remerciement"
+
+#, fuzzy
+#~ msgid ""
+#~ "You need to create a Facebook Application prior to start using the "
+#~ "Facebook for Social Login"
+#~ msgstr ""
+#~ "Vous devez créer un avant l’Application Facebook pour commencer à "
+#~ "utiliser le Facebook pour Social connexion"
